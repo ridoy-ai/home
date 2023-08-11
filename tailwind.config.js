@@ -9,6 +9,7 @@ module.exports = {
       'text-large-slate': '#1e293b',
       'text-medium-gray': '#6b7280',
       'text-small-gray': '#6b7280',
+      'text-small-slate-dark': '#020617',
       'text-indigo': '#4f46e5',
       'text-white': '#f9fafc'
     },
