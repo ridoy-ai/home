@@ -51,6 +51,11 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                        <Link activeClass="active" to="research" smooth={true} duration={500}>
+                            Research
+                        </Link>
+                    </li>
+                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="work" smooth={true} duration={500}>
                             Work
                         </Link>
@@ -87,6 +92,11 @@ const Header = () => {
                 <li className='py-6 text-4xl hover:bg-theme-dark-slate duration-200 hover:text-text-white'>
                     <Link onClick={handleClick} activeClass="active" to="skills" smooth={true} duration={500}>
                         Skills
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl hover:bg-theme-dark-slate duration-200 hover:text-text-white'>
+                    <Link onClick={handleClick} activeClass="active" to="research" smooth={true} duration={500}>
+                        Research
                     </Link>
                 </li>
                 <li className='py-6 text-4xl hover:bg-theme-dark-slate duration-200 hover:text-text-white'>
