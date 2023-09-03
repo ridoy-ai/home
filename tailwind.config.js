@@ -11,7 +11,9 @@ module.exports = {
       'text-small-gray': '#6b7280',
       'text-small-slate-dark': '#020617',
       'text-indigo': '#4f46e5',
-      'text-white': '#f9fafc'
+      'text-white': '#f9fafc',
+      'text-plain-white': '#ffffff',
+      'bg-slate-800':'#1e293b'
     },
     extend: {},
   },

@@ -11,23 +11,23 @@ const Skills = () => {
                 </div>
                 <div class='max-w-[1000px] w-full gap-4 px-2 mt-4 pl-8 sm: pl-0 text-justify flex flex-col'>
                     <div class='w-full grid sm:grid-cols-2 flex flex-col gap-2 sm:gap-4 sm:flex-row sm:justify-center'>
-                        <p class='font-bold text-left sm:text-right'>Area:</p>
+                        <p class='font-bold text-left text-lg sm:text-right'>Area:</p>
                         <p class='text-left sm:text-left sm:block'>Machine Learning, Computer Vision, Android</p>
                     </div>
                     <div class='w-full grid sm:grid-cols-2 flex flex-col gap-2 sm:gap-4 sm:flex-row sm:justify-center'>
-                        <p class='font-bold text-left sm:text-right'>Programming Languages:</p>
+                        <p class='font-bold text-left text-lg sm:text-right'>Programming Languages:</p>
                         <p class='text-left sm:text-left sm:block'>Java, Python, JavaScript, Kotlin, C++, C#</p>
                     </div>
                     <div class='w-full grid sm:grid-cols-2 flex flex-col gap-2 sm:gap-4 sm:flex-row sm:justify-center'>
-                        <p class='font-bold text-left sm:text-right'>Framework/API/Technologies:</p>
+                        <p class='font-bold text-left text-lg sm:text-right'>Framework/API/Technologies:</p>
                         <p class='text-left sm:text-left sm:block'>Scikit-learn, TensorFlow, Keras, AWS SageMaker, AWS Rekognition, Pinecone, OpenAI API, J2SE, REST, JSON, SOAP, AIML, Google Map API, Place API, Graph API, YouTube API, Google Analytics, In-App Billing API V3, Volley, OkHttp, Retrofit, Ion, Glide, Picasso, Dagger, ButterKnife, GSON,.NET 4.0,.NET 4.5,SAPI, BlueCove, HtmlAgilityPack, React, React Native</p>
                     </div>
                     <div class='w-full grid sm:grid-cols-2 flex flex-col gap-2 sm:gap-4 sm:flex-row sm:justify-center'>
-                        <p class='font-bold text-left sm:text-right'>Database:</p>
+                        <p class='font-bold text-left text-lg sm:text-right'>Database:</p>
                         <p class='text-left sm:text-left sm:block'>MySQL, MS SQL Server, SQLite</p>
                     </div>
                     <div class='w-full grid sm:grid-cols-2 flex flex-col gap-2 sm:gap-4 sm:flex-row sm:justify-center'>
-                        <p class='font-bold text-left sm:text-right'>Web Development:</p>
+                        <p class='font-bold text-left text-lg sm:text-right'>Web Development:</p>
                         <p class='text-left sm:text-left sm:block'>PHP, ASP.NET 4.0, AJAX, HTML, CSS</p>
                     </div>
                     {/* <div class='flex flex-col justify-center w-full sm:w-auto'>

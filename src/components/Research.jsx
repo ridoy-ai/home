@@ -1,7 +1,8 @@
 import React from 'react'
+import { FaAward } from 'react-icons/fa';
 
 const Keyword = ({ text }) => (
-    <div className="inline-block m-2 p-1 rounded-full border-2 border-green-500">
+    <div className="inline-block m-2 p-2 rounded-full border-2 bg-theme-dark-slate text-text-plain-white">
         <p className="text-xs">{text}</p>
     </div>
 );
@@ -30,7 +31,7 @@ const Research = () => {
                     </div>
                     <div className="mt-2 ml-4">
                         <a className="underline font-bold" href="https://doi.org/10.1007/978-981-19-0475-2_38" rel="noreferrer" target="_blank">Paper ⮕</a>
-                        <a className="ml-16 underline font-bold" href="https://drive.google.com/drive/folders/1gVi-nBbFuUmBC5oCod3gyk1RlB0-vGjT?usp=sharing" rel="noreferrer" target="_blank">Best Paper Award ⮕</a>
+                        <a className="ml-16 underline font-bold" href="https://drive.google.com/drive/folders/1gVi-nBbFuUmBC5oCod3gyk1RlB0-vGjT?usp=sharing" rel="noreferrer" target="_blank"><FaAward className="inline-block w-6 h-6 ml-2" />Best Paper Award ⮕</a>
                     </div>
                 </div>
                 <div className="border-t-2 border-theme-dark-slate w-full my-2"></div>

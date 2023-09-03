@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Research from "./components/Research";
@@ -18,7 +18,7 @@ function App() {
       <Education/>
       <Skills/>
       <Research/>
-      <Work/>
+      <Experience/>
       <Contact/>
       <Footer/>
     </div>

@@ -30,37 +30,37 @@ const Header = () => {
             {/*menu*/}
             <div className='hidden md:flex'>
                 <ul className='hidden md:flex'>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="home" smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="about" smooth={true} duration={500}>
                             About
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="education" smooth={true} duration={500}>
                             Education
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="skills" smooth={true} duration={500}>
                             Skills
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="research" smooth={true} duration={500}>
                             Research
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
-                        <Link activeClass="active" to="work" smooth={true} duration={500}>
-                            Work
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                        <Link activeClass="active" to="experience" smooth={true} duration={500}>
+                            Experience
                         </Link>
                     </li>
-                    <li className='hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
+                    <li className='text-l font-bold hover:bg-theme-dark-slate duration-200 hover:text-text-white p-4 resize-none hover:resize'>
                         <Link activeClass="active" to="contact" smooth={true} duration={500}>
                             Contact
                         </Link>
@@ -100,8 +100,8 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className='py-6 text-4xl hover:bg-theme-dark-slate duration-200 hover:text-text-white'>
-                    <Link onClick={handleClick} activeClass="active" to="work" smooth={true} duration={500}>
-                        Work
+                    <Link onClick={handleClick} activeClass="active" to="experience" smooth={true} duration={500}>
+                        Experience
                     </Link>
                 </li>
                 <li className='py-6 text-4xl hover:bg-theme-dark-slate duration-200 hover:text-text-white'>
