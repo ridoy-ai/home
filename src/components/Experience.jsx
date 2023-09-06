@@ -38,6 +38,33 @@ const Experience = () => {
             link="http://example.com/link1"
           />
 
+          <ExperienceItem
+            date="Feb 2015 - Jun 2015"
+            dateColor="#6b7280"
+            name="Regional Project Manager & Lead Trainer"
+            company="EATL & Ministry of ICT, Bangladesh"
+            description="⦿ Implemented a 4 months Govt. operated android training program to three universities (KUET, KU, NWU) and acted as lead trainer for Khulna Zone."
+            link="http://example.com/link1"
+          />
+
+          <ExperienceItem
+            date="Oct 2014 - Feb 2015"
+            dateColor="#6b7280"
+            name="Chief Technology Officer"
+            company="Dream71 Bangladesh Limited"
+            description="⦿ Acted as idea, research and development lead, was responsible for building the first ever live cricket scoring app in Bangla language named “Cricket Bangladesh”."
+            link="http://example.com/link1"
+          />
+
+          <ExperienceItem
+            date="Dec 2013 - Mar 2014"
+            dateColor="#6b7280"
+            name="Junior Software Engineer"
+            company="The Code and Fix Software Limited"
+            description="⦿ Contributed into existing projects written for ASP.NET and Android platform."
+            link="http://example.com/link1"
+          />
+
           {/* Repeat this for other resume items */}
         </div>
         {/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
