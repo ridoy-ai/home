@@ -1,15 +1,16 @@
 import React from 'react'
 import {FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
+import { SiCodeproject } from "react-icons/si";
 
 const Footer = () => {
   return (
     <div name='footer' className='w-full h-[100px] bg-[#0F1729] text-[#f9fafc] flex justify-center items-center p-4'>
         <div className='flex max-w-[1250px] w-full justify-between items-center'>
-            <p>Designed by <a className='text-red-700' href="https://imvora.dev">imvora.dev</a></p>
-            <div className='flex gap-9'>
-                <a target='_blank' href="https://www.instagram.com/imvora.dev/"><FaInstagram size={20}/></a>  
-                <a target='_blank' href="https://github.com/aligunesv"><FaGithub size={20}/></a> 
-                <a target='_blank' href="https://www.linkedin.com/in/aligunesv1/"></a> <FaLinkedin size={20}/>
+            <p className='text-xs'>Design inherited from <a className='text-red-700 underline' href="https://github.com/aligunesv/Simple-Portfolio-Template/">Ali Güneş</a></p>
+            <p>All rights reserved: @ridoy, 2023.</p> 
+            <div className='flex gap-6'>
+                <a target='_blank' rel="noreferrer" href="https://www.codeproject.com/Members/Ridoy"><SiCodeproject size={42}/></a>
+                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/shuvropal/"> <FaLinkedin size={42}/></a> 
             </div>
         </div>
     </div>
