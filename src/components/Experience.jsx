@@ -16,8 +16,9 @@ const Experience = () => {
             dateColor="#f9fafc"
             name="Team Lead, Artificial intelligence"
             company="Zantrik"
-            description="⦿ Responsible to lead research and development works related with Computer Vision. 
+            description="⦿ Responsible to lead research and development works related with Computer Vision and NLP. 
 ⦿ Responsible for planning and preparing data collection, preprocessing, model training and deployment pipelines."
+            link="http://example.com/link1"
           />
 
           <ExperienceItem

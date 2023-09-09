@@ -13,7 +13,8 @@ module.exports = {
       'text-indigo': '#4f46e5',
       'text-white': '#f9fafc',
       'text-plain-white': '#ffffff',
-      'bg-slate-800':'#1e293b'
+      'bg-slate-800':'#1e293b',
+      'bg-slate-200':'#e2e8f0'
     },
     extend: {},
   },
