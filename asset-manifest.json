@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shuvropal.github.io/static/css/main.1a43f14a.css",
-    "main.js": "/shuvropal.github.io/static/js/main.2dd143f1.js",
-    "static/media/servicewebtemplate.png": "/shuvropal.github.io/static/media/servicewebtemplate.d40a8524e0c43afd96cd.png",
-    "static/media/portrait_me.jpg": "/shuvropal.github.io/static/media/portrait_me.e2177343c5e485031a43.jpg",
-    "index.html": "/shuvropal.github.io/index.html",
-    "main.1a43f14a.css.map": "/shuvropal.github.io/static/css/main.1a43f14a.css.map",
-    "main.2dd143f1.js.map": "/shuvropal.github.io/static/js/main.2dd143f1.js.map"
+    "main.css": "/static/css/main.1a43f14a.css",
+    "main.js": "/static/js/main.29339023.js",
+    "static/media/servicewebtemplate.png": "/static/media/servicewebtemplate.d40a8524e0c43afd96cd.png",
+    "static/media/portrait_me.jpg": "/static/media/portrait_me.e2177343c5e485031a43.jpg",
+    "index.html": "/index.html",
+    "main.1a43f14a.css.map": "/static/css/main.1a43f14a.css.map",
+    "main.29339023.js.map": "/static/js/main.29339023.js.map"
   },
   "entrypoints": [
     "static/css/main.1a43f14a.css",
-    "static/js/main.2dd143f1.js"
+    "static/js/main.29339023.js"
   ]
 }
