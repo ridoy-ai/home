@@ -111,8 +111,8 @@ const Header = () => {
                 </li>
             </ul>
 
-            {/* social icons mailto:aligunesv2@gmail.com*/}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            {/* social icons */}
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 border-solid border-2 border-text-plain-white'>
                 <ul>
                     <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
                         <a className='flex justify-between items-center w-full text-[#fff]' href="https://www.linkedin.com/in/shuvropal/" rel="noreferrer" target="_blank">Linkedin <FaLinkedin size={30} /> </a>

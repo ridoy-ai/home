@@ -16,8 +16,9 @@ const Experience = () => {
             dateColor="#f9fafc"
             name="Team Lead, Artificial intelligence"
             company="Zantrik"
-            description="⦿ Responsible to lead research and development works related with Computer Vision. 
+            description="⦿ Responsible to lead research and development works related with Computer Vision and NLP. 
 ⦿ Responsible for planning and preparing data collection, preprocessing, model training and deployment pipelines."
+            link="http://example.com/link1"
           />
 
           <ExperienceItem
@@ -35,6 +36,33 @@ const Experience = () => {
             name="Sr. Software Engineer, Android"
             company="XOR Software Solution"
             description="⦿ Responsible for designing, developing and planning of in-house native android mobile applications."
+            link="http://example.com/link1"
+          />
+
+          <ExperienceItem
+            date="Feb 2015 - Jun 2015"
+            dateColor="#6b7280"
+            name="Regional Project Manager & Lead Trainer"
+            company="EATL & Ministry of ICT, Bangladesh"
+            description="⦿ Implemented a 4 months Govt. operated android training program to three universities (KUET, KU, NWU) and acted as lead trainer for Khulna Zone."
+            link="http://example.com/link1"
+          />
+
+          <ExperienceItem
+            date="Oct 2014 - Feb 2015"
+            dateColor="#6b7280"
+            name="Chief Technology Officer"
+            company="Dream71 Bangladesh Limited"
+            description="⦿ Acted as idea, research and development lead, was responsible for building the first ever live cricket scoring app in Bangla language named “Cricket Bangladesh”."
+            link="http://example.com/link1"
+          />
+
+          <ExperienceItem
+            date="Dec 2013 - Mar 2014"
+            dateColor="#6b7280"
+            name="Junior Software Engineer"
+            company="The Code and Fix Software Limited"
+            description="⦿ Contributed into existing projects written for ASP.NET and Android platform."
             link="http://example.com/link1"
           />
 
