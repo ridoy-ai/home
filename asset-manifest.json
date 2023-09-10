@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shuvropal.github.io/static/css/main.1a43f14a.css",
-    "main.js": "/shuvropal.github.io/static/js/main.b3b14ebe.js",
-    "static/media/servicewebtemplate.png": "/shuvropal.github.io/static/media/servicewebtemplate.d40a8524e0c43afd96cd.png",
-    "static/media/portrait_me.jpg": "/shuvropal.github.io/static/media/portrait_me.e2177343c5e485031a43.jpg",
-    "index.html": "/shuvropal.github.io/index.html",
-    "main.1a43f14a.css.map": "/shuvropal.github.io/static/css/main.1a43f14a.css.map",
-    "main.b3b14ebe.js.map": "/shuvropal.github.io/static/js/main.b3b14ebe.js.map"
+    "main.css": "/home/static/css/main.1a43f14a.css",
+    "main.js": "/home/static/js/main.ded758f8.js",
+    "static/media/servicewebtemplate.png": "/home/static/media/servicewebtemplate.d40a8524e0c43afd96cd.png",
+    "static/media/portrait_me.jpg": "/home/static/media/portrait_me.e2177343c5e485031a43.jpg",
+    "index.html": "/home/index.html",
+    "main.1a43f14a.css.map": "/home/static/css/main.1a43f14a.css.map",
+    "main.ded758f8.js.map": "/home/static/js/main.ded758f8.js.map"
   },
   "entrypoints": [
     "static/css/main.1a43f14a.css",
-    "static/js/main.b3b14ebe.js"
+    "static/js/main.ded758f8.js"
   ]
 }
