@@ -185,7 +185,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div name='experience' className='w-full bg-[#0F1729] text-[#f9fafc]'>
+    <div id='experience' name='experience' className='w-full bg-[#0F1729] text-[#f9fafc]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#f9fafc] text-[#f9fafc]'>Working Experience</p>
