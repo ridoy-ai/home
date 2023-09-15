@@ -8,9 +8,9 @@ const Footer = () => {
         <div className='flex max-w-[1250px] w-full justify-between items-center'>
             <p className='text-xs'>Design inherited from <a className='text-red-700 underline' href="https://github.com/aligunesv/Simple-Portfolio-Template/">Ali Güneş</a></p>
             <p>All rights reserved: @ridoy, 2023.</p> 
-            <div className='flex gap-6'>
-                <a target='_blank' rel="noreferrer" href="https://www.codeproject.com/Members/Ridoy"><SiCodeproject size={42}/></a>
-                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/shuvropal/"> <FaLinkedin size={42}/></a> 
+            <div className='flex gap-4' title='Codeproject'>
+                <a target='_blank' rel="noreferrer" href="https://www.codeproject.com/Members/Ridoy" title="Codeproject"><SiCodeproject size={42}/></a>
+                <a target='_blank' rel="noreferrer" title="Linkedin" href="https://www.linkedin.com/in/shuvropal/"> <FaLinkedin size={42}/></a> 
             </div>
         </div>
     </div>

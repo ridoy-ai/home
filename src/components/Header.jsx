@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaStackOverflow, FaCv } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { SiCodeproject, SiGooglescholar } from "react-icons/si";
 import { Link } from 'react-scroll'
 import MyPortrait from '../assets/portrait_me.jpg'
+import { TbFileCv } from 'react-icons/tb'
 
 const Header = () => {
 
@@ -114,8 +115,11 @@ const Header = () => {
             {/* social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0 border-solid border-2 border-text-plain-white'>
                 <ul>
-                    <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
+                    {/* <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
                         <a className='flex justify-between items-center w-full text-[#fff]' href="https://www.linkedin.com/in/shuvropal/" rel="noreferrer" target="_blank">Linkedin <FaLinkedin size={30} /> </a>
+                    </li> */}
+                    <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
+                        <a className='flex justify-between items-center w-full text-[#fff]' href="https://drive.google.com/drive/folders/19HhBSZM5MgzCADcJ3F1wIs6aQPfYE-RV?usp=sharing" rel="noreferrer" target="_blank">Curriculum Vitae<TbFileCv size={30} /> </a>
                     </li>
                     <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
                         <a className='flex justify-between items-center w-full text-[#fff]' href="https://github.com/ridoy-ai" rel="noreferrer" target="_blank">Github <FaGithub size={30} /> </a>
@@ -126,9 +130,9 @@ const Header = () => {
                     <li className='w-[160px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200'>
                         <a className='flex justify-between items-center w-full text-[#fff]' href="https://stackoverflow.com/users/1791578/ridoy" rel="noreferrer" target="_blank">Stack Overflow <FaStackOverflow size={30} /> </a>
                     </li>
-                    <li className='w-[170px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-200'>
+                    {/* <li className='w-[170px] h-[60px] bg-theme-dark-slate flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-200'>
                         <a className='flex justify-between items-center w-full text-[#fff]' href="https://www.codeproject.com/Members/Ridoy" rel="noreferrer" target="_blank">Code Project <SiCodeproject size={30} /> </a>
-                    </li>
+                    </li> */}
 
                 </ul>
             </div>

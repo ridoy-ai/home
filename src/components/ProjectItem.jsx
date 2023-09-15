@@ -3,11 +3,11 @@ import React from 'react';
 // Define a component for rendering a project item
 const ProjectItem = ({ name, description, images, techStack, link }) => {
     return (
-        <div className="p-4 bg-theme-dark-slate shadow-lg rounded-lg">
-            <h3 className="text-xl font-bold">{name}</h3>
-            <p className="text-gray-600">{description}</p>
+        <div className="p-4 bg-bg-gray-300 shadow-lg rounded-lg border-solid border-2 border-theme-dark-slate">
+            <h3 className="text-xl text-text-small-slate-dark font-bold">{name}</h3>
+            <p className="text-text-small-slate-dark">{description}</p>
             <div className="flex flex-wrap gap-2 mt-2">
-                {images.map((image) => (
+                {images && images.map((image) => (
                     <img
                         src={image}
                         alt={name}
@@ -17,19 +17,19 @@ const ProjectItem = ({ name, description, images, techStack, link }) => {
             </div>
             <div className="flex flex-wrap gap-2 mt-2">
                 {techStack.map((tech) => (
-                    <span className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md">
+                    <span className="inline-block px-2 py-1 rounded-full border-2 text-text-small-slate-dark">
                         {tech}
                     </span>
                 ))}
             </div>
-            <a
+            {link && <a
                 href={link}
                 target="_blank"
                 rel="noreferrer"
-                className="block mt-4 text-blue-600 hover:text-blue-800 underline"
+                className="block mt-4 text-text-small-slate-dark hover:font-bold underline"
             >
                 Visit Project
-            </a>
+            </a>}
         </div>
     );
 };
