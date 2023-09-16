@@ -14,7 +14,7 @@ const About = () => {
                     <p>Hi. I'm Shuvro, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                    <p>Shuvro is a computer science graduate, a passionate coder, researcher and community contributor. He has extensive experience creating cutting-edge machine learning solutions. He is currently in charge of Zantrik's AI Team. He has a general interest in machine learning and how it relates to vision. Apart from that, he is a regular contributor of many local and international tech communities.</p>
+                    <p>Shuvro is a computer science graduate, a passionate coder, researcher and community contributor. He has extensive experience creating cutting-edge machine learning solutions. He is currently in charge of Zantrik's AI Team. He has a general interest in machine learning and how it relates to vision. Apart from that, he is a regular contributor of many local and international tech communities. In addition to his professional interests, he finds peace in the soothing melodies of music and excel in the competitive world of gaming.</p>
                 </div>
             </div>
         </div>
