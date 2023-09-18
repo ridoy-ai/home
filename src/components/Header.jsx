@@ -21,11 +21,13 @@ const Header = () => {
                     className="object-container object-center bg-white rounded-full w-16 h-16 border bg-white object-cover"
                 />
                 <h1 className='text-xl sm:text-2xl font-bold text-[#0F1729] ml-2'>@ridoy</h1>
-                <img
-                    src={MyPortrait} // source of your full image
-                    alt="full_photo"
-                    className="hidden group-hover:block absolute top-0 left-0 z-10"
-                />
+                <div className="hidden group-hover:block absolute top-0 left-0 z-10">
+                    <img
+                        src={MyPortrait} // source of your full image
+                        alt="full_photo"
+                    />
+                    <div className="bg-bg-gray-300 text-text-indigo text-xs p-1 top-0 right-0">My beloved mother gave me the nickname 'Ridoy'.</div>
+                </div>
             </div>
 
             {/*menu*/}
