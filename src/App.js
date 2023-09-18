@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Research from "./components/Research";
+import Awards from "./components/Awards";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Skills/>
       <Research/>
       <Experience/>
+      <Awards/>
       <Contact/>
       <Footer/>
     </div>
